@@ -1,56 +1,94 @@
-*{
-   background-size: cover;
-   border: 10px;
-   padding: 10px;
+.content{
+    margin: auto;
+    width: 95%;
+    background-size: cover;
+    margin-top: 10px;
 }
-#header{
+
+.header{
   display: flex; 
   flex-direction: row;
-  border: 10px;
   color: white;
   background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 .agriplus{
-    width: 300px;
     float: left;
     font-size: 25px;
     font-weight: bold;
 }
-.menuitem{
-    width: 600px;
+
+.menu{
     display: flex;
     flex-direction: row;
-    color: white; 
-    flex-shrink: 2px;
-    color: white;        
+    color: white;  
+    width: fit-content;
 }
-#menu{
-    border: 20px;
-   
+
+.menuitem{
+    display:block;
+    float:left;
+    position:relative;
+    width:100px;
+    text-align:center;
+    text-decoration: none;
+    color: white;
 }
+
+.menuitem  ul{
+    text-decoration: none;
+}
+
+.menuitem  ul li{
+    text-decoration: none;
+    text-align: center;
+}
+
+.menuitem  ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menuitem  ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #ED661F;
+}
+
+.last{
+    float: right;
+    width: 40%;
+    padding-top: 15px;
+}
+
 .login{
     border: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     float: right;
 }
+
 .btn-get{
-    background-color: #ED661F;
     border: 20px;
-    float: right;
     border-radius: 10px;
+    float: right;
     writing-mode: horizontal-tb;
+    background-color: #ED661F;
 }
+
 #partone{
     display: flex;
     flex-direction: row;
     background-image: url(../images/background.png);
     background-position: center;
-    padding: 100px;
-    width: 900px;
     min-height: 500px;
     clear: unset;
-    border: 20px;
-    padding: 2px;
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: fit-content;
 }
+
 .title{
     text-align: left;
 }
