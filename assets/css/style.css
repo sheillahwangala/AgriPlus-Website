@@ -1,0 +1,33 @@
+#header{
+  display: flex; 
+  flex-direction: row;
+  border: 10px;
+  color: white;
+  padding: 40px;
+  background-color: black;
+}
+.agriplus{
+    width: 300px;
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+.menuitem{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    color: white;         
+}
+#menu{
+    border: 20px;
+   
+}
+.login{
+    border: 20px;
+    float: right;
+}
+.btn-get{
+    background-color: #ED661F;
+    border: 20px;
+    float: right;
+}
