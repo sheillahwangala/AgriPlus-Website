@@ -281,7 +281,7 @@
 
 
 footer{
-    background-color: white;
+    background-color: black;
 }
 
 footer .first{
@@ -316,7 +316,7 @@ footer .first #btn-suscribe{
 }
 
 footer .first h2{
-
+    padding: 30px;
 }
 
 footer .second{
@@ -324,6 +324,31 @@ footer .second{
     color: white;
     display: flex;
     flex-direction: row;
+    padding-left: 30px;
+}
+
+
+footer .logo-container{
+    width: 40%;
+}
+
+footer .logo-container h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+footer .logo-container p{
+    font-size: 8px;
+}
+
+footer .logo-container img{
+    border-radius: 2px;
+    padding-right: 10px;
+}
+
+footer .second{
+    padding-top: 40px;
+    text-decoration: none;
 }
 
 footer .second .quick-links{
@@ -331,28 +356,42 @@ footer .second .quick-links{
     flex-direction: row;
     float: right;
     width: 60%;
-}
-
-footer .second .quick-links ul{
     text-decoration: none;
 }
 
-footer .second .quick-links ul li a{
+footer .second .quick-links .links{
+    padding-right: 30px;
+    text-align: left;
+    width: 300px;
+    text-decoration: none;
+}
+
+
+footer .second .quick-links .links .quick-link-item{
+    color: white;
+    height: 30px;
+    text-decoration: none;
+}
+
+
+.quick-link-item a{
     text-decoration: none;
     color: white;
 }
 
-footer .second .quick-links .quick-links-item{
+.quick-link-item a:hover{
     text-decoration: none;
-    color: white;
 }
 
 footer .third{
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: row;
     text-align: center;
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+footer .third h5{
+    font-weight: bolder;
+    color: white;
 }
 
 
@@ -379,6 +418,22 @@ footer .third{
     font-size: 16px;
     float: right;
     width: 200px;
+    background: none;
+}
+
+#btn-see span{
+    text-decoration-color: #ED661F;
+    color: #ED661F;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#btn-see u{
+    text-decoration: underline;
+    text-decoration-color: #ED661F;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px;
+    text-underline-position: below;
 }
 
 .see {
@@ -417,8 +472,6 @@ footer .third{
     background-color: rgb(63, 6, 6);
     text-align: center;
 }
-
-.email {}
 
 .subscribe {
     color: smoke whitesmoke;
