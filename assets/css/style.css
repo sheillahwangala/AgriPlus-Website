@@ -78,3 +78,66 @@
     width: 200px;
     height: 50px;
 }
+#parttwo{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    padding: 50px;
+    border: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.comm{
+    width: 320px;
+    height: 250px;
+}
+.subtitle{
+font-size: 12px;
+text-align: center;
+}
+#prodtable{
+    display: flexbox;
+    box-sizing: content-box;
+    margin: 20px;
+}
+.carrots{
+    width: 130px;
+    height: 120px;
+}
+.pop{
+    text-align: left;
+}
+.items{
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;  
+}
+#btn-see{
+    border: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    float: right;
+}
+.see{
+    margin: 20px;
+    border: 20px;
+    border-bottom-style: groove;
+    padding-bottom: 50px;
+}
+#partfour{
+    padding: 10px;
+    margin: 20px;
+}
+.feedback{
+    display: flex;
+    flex-direction: row;
+}
+.people{
+    display: flex;
+    flex-direction: row;
+}
+.rebecca{
+    width: 40px;
+    height: 40px;
+}
