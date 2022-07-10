@@ -267,6 +267,78 @@
     padding-right: 60px;
 }
 
+
+footer{
+    background-color: white;
+}
+
+footer .first{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+footer .first input{
+    min-height: 25px;
+    width: 400px;
+    background-color: white;
+    color: #000;
+    border-radius: 0%;
+    border: white;
+}
+
+footer .first #btn-suscribe{
+    writing-mode: horizontal-tb;
+    border: #ED661F;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #ED661F;
+    color: white;
+    height: 25px;
+    border-radius: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer .first h2{
+
+}
+
+footer .second{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+footer .second .quick-links{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: 60%;
+}
+
+footer .second .quick-links ul{
+    text-decoration: none;
+}
+
+footer .second .quick-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .third{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
 #prodtable {
     display: flexbox;
     box-sizing: content-box;
@@ -276,10 +348,6 @@
 .carrots {
     width: 130px;
     height: 120px;
-}
-
-.pop {
-    
 }
 
 .items {
