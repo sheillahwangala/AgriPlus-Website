@@ -219,6 +219,54 @@
     margin-right: 100px;
 }
 
+
+
+
+.partfour{
+    padding-left: 30px;
+}
+
+.partfour .row{
+    display: flex;
+    flex-direction: row;
+}
+
+.partfour .row .comment-section{
+    width: 20%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2); 
+    min-height: 240px;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-right: 30px;
+}
+
+.partfour .row .comment-section .rating{
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.partfour .row .comment-section .comment h2{
+    font-size: 22px;
+}
+
+.partfour .row .comment-section .commentor{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.partfour .row .comment-section .commentor img{
+    width: 40px;
+    height: 40px;
+    clear: none;
+    float: left;
+}
+
+.partfour .row .comment-section .commentor .name{
+    float: right;
+    padding-right: 60px;
+}
+
 #prodtable {
     display: flexbox;
     box-sizing: content-box;
@@ -275,12 +323,6 @@
     size: 10px;
 }
 
-.rebecca {
-    width: 40px;
-    height: 40px;
-    float: left;
-    clear: none;
-}
 
 #bottom {
     color: white;
