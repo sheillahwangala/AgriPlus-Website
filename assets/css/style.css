@@ -175,6 +175,10 @@
 }
 
 
+.partthree{
+    padding-left: 30px;
+}
+
 .partthree .subtitle h1 u{
     text-decoration: underline;
     text-decoration-color: #ED661F;
@@ -183,9 +187,36 @@
     text-underline-position: below;
 }
 
+.partthree .subtitle p{
+    font-size: 15px;
+}
+
 .subtitle {
     font-size: 12px;
     text-align: center;
+}
+
+.partthree .row h2{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.partthree .row h2 u{
+    text-decoration: underline;
+    text-decoration-color: #ED661F;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px;
+    text-underline-position: below;
+}
+
+.partthree .items{
+    display: flex;
+    flex-direction: row;
+}
+
+.partthree .items .item-container{
+    width: 20%;
+    margin-right: 100px;
 }
 
 #prodtable {
@@ -200,7 +231,7 @@
 }
 
 .pop {
-    text-align: left;
+    
 }
 
 .items {
