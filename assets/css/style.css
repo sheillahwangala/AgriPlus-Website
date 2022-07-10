@@ -1,9 +1,13 @@
+*{
+   background-size: cover;
+   border: 10px;
+   padding: 20px;
+}
 #header{
   display: flex; 
   flex-direction: row;
   border: 10px;
   color: white;
-  padding: 40px;
   background-color: black;
 }
 .agriplus{
@@ -29,5 +33,20 @@
 .btn-get{
     background-color: #ED661F;
     border: 20px;
+    float: right;
+}
+#partone{
+    display: flex;
+    flex-direction: row;
+    background-image: url(../images/background.png);
+    padding: 100px;
+    width: 800px;
+    height: 400px;
+}
+.title{
+    text-align: left;
+}
+.fruits{
+    width: 300px;
     float: right;
 }
