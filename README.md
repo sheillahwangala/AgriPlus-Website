@@ -5,8 +5,8 @@
 ## Table of Content
 
 <!-- vscode-markdown-toc -->
-* 1. [ 1. Description](#1.Description)
-* 2. [ 2.Installation](#2.Installation)
+* 1. [Description](#1.Description)
+* 2. [Installation](#2.Installation)
 		* 2.1. [Requirements](#Requirements)
 		* 2.2. [Process](#Process)
 * 3. [Technology Used](#3.TechnologyUsed)
@@ -20,10 +20,10 @@
 <!-- /vscode-markdown-toc -->
 
 
-##  1. <a name='1.Description'></a> 1. Description
+##  1. <a name='1.Description'></a>Description
 This is an ecommerce website for an agribusiness company.
 
-##  2. <a name='2.Installation'></a> 2.Installation 
+##  2. <a name='2.Installation'></a>Installation 
 ####  2.1. <a name='Requirements'></a>Requirements
     - A computer, smartphone, ipad or tablet.
     - An access to the Internet
@@ -32,11 +32,11 @@ Ensure you are in your prefered folder, where you want it to be set up. run this
 
 It should be easy to deploy
 
-##  3. <a name='3.TechnologyUsed'></a> 3. Technology Used
+##  3. <a name='3.TechnologyUsed'></a>Technology Used
 In this project, I used the following technologies:
     - HTML: Used to build the structure of the pages.
     - CSS: Used to add style to the pages.
-##  4. <a name='4.Licence'></a> 4. Licence
+##  4. <a name='4.Licence'></a> Licence
 MIT Licence
 
 Copyright(c) 2022 sheillahwangala
