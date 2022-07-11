@@ -9,8 +9,8 @@
 * 2. [ 2.Installation](#2.Installation)
 		* 2.1. [Requirements](#Requirements)
 		* 2.2. [Process](#Process)
-* 3. [ 3. Technology Used](#3.TechnologyUsed)
-* 4. [ 4. Licence](#4.Licence)
+* 3. [Technology Used](#3.TechnologyUsed)
+* 4. [Licence](#4.Licence)
 * 5. [Contact Author](#ContactAuthor)
 
 <!-- vscode-markdown-toc-config
